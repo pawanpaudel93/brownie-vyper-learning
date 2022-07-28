@@ -1,0 +1,17 @@
+{
+    "editor.formatOnSave": true,
+    "python.defaultInterpreterPath": "~/.local/share/virtualenvs/brownie-vyper-learning-vZWLUkko/bin/python",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length=119"
+    ],
+    "python.sortImports.args": [
+        "--profile",
+        "black"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    }
+}
